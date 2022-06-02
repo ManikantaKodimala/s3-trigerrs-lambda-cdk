@@ -4,8 +4,7 @@ import os
 import aws_cdk as cdk
 
 from cdk_tutorials.cdk_tutorials_stack import CdkTutorialsStack
-
-
+print("Hello")
 app = cdk.App()
 CdkTutorialsStack(app, "CdkTutorialsStack",
     # If you don't specify 'env', this stack will be environment-agnostic.
